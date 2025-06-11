@@ -1,0 +1,22 @@
+{
+  "tools": [
+    {
+      "name": "code_search",
+      "description": "Search through codebase using semantic search",
+      "command": "code_search",
+      "args": ["query"]
+    },
+    {
+      "name": "code_edit",
+      "description": "Edit code files with AI assistance",
+      "command": "code_edit",
+      "args": ["file", "changes"]
+    },
+    {
+      "name": "code_review",
+      "description": "Review code changes and provide feedback",
+      "command": "code_review",
+      "args": ["changes"]
+    }
+  ]
+} 
