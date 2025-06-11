@@ -87,8 +87,8 @@ func (t *TestStruct) Method2() int {
 			"Method2": true,
 		}
 		for _, method := range methods {
-			if !expectedMethods[method] {
-				t.Errorf("Unexpected method: %s", method)
+			if !expectedMethods[method.Name] {
+				t.Errorf("Unexpected method: %s", method.Name)
 			}
 		}
 	})
